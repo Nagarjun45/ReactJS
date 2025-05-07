@@ -58,7 +58,7 @@ function App() {
       {/* UseEffect ke jalwe */}
       {/* <PhaseEffect /> */}
 
-      <Logger />
+      {/* <Logger /> */}
 
     </>
   )
