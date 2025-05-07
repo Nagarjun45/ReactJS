@@ -12,6 +12,8 @@ import Counter from "./Components/State/Counter";
 import NameComponent, { EditableName } from "./Components/Hooks/useState Hook/String";
 import Taunter from "./Components/Hooks/useState Hook/Number";
 import ToggleMessage from "./Components/Hooks/useState Hook/Boolean";
+import PhaseEffect from "./Components/Hooks/useEffect Hook/PhaseEffect";
+import Logger from "./Components/Hooks/useEffect Hook/Logger";
 function App() {
   return (
     <>
@@ -51,7 +53,12 @@ function App() {
 
       {/* <Taunter /> */}
 
-      <ToggleMessage />
+      {/* <ToggleMessage /> */}
+
+      {/* UseEffect ke jalwe */}
+      {/* <PhaseEffect /> */}
+
+      <Logger />
 
     </>
   )
