@@ -14,6 +14,13 @@ import Taunter from "./Components/Hooks/useState Hook/Number";
 import ToggleMessage from "./Components/Hooks/useState Hook/Boolean";
 import PhaseEffect from "./Components/Hooks/useEffect Hook/PhaseEffect";
 import Logger from "./Components/Hooks/useEffect Hook/Logger";
+import CleanUp from "./Components/Hooks/useEffect Hook/CleanUP";
+import { ApiCall } from "./Components/Hooks/useEffect Hook/ApiCall";
+import { PokemonApi } from "./Components/Hooks/useEffect Hook/PokemonApi";
+import { BioProvider } from "./Components/Hooks/ContextAPI";
+import { Home } from "./Components/Hooks/ContextAPI/Home";
+import { UserProvider } from "./Components/Hooks/ContextAPI/Example/UserContext";
+import { Header } from "./Components/Hooks/ContextAPI/Example/Header";
 function App() {
   return (
     <>
@@ -59,6 +66,24 @@ function App() {
       {/* <PhaseEffect /> */}
 
       {/* <Logger /> */}
+
+      {/* <CleanUp /> */}
+
+      {/* <ApiCall /> */}
+
+
+      {/* <PokemonApi /> */}
+
+
+      {/* ContextAPI Wale :- Hame Yaha par jo bhi consumer hai unko Provider main Wrap karna padta hai */}
+
+      {/* <BioProvider>
+        <Home />
+      </BioProvider> */}
+
+      <UserProvider />
+
+
 
     </>
   )
