@@ -22,6 +22,7 @@ import { Home } from "./Components/Hooks/ContextAPI/Home";
 import { UserProvider } from "./Components/Hooks/ContextAPI/Example/UserContext";
 import { Header } from "./Components/Hooks/ContextAPI/Example/Header";
 import { PrevValueTracker } from "./Components/Hooks/useRef Hook/FocusInput";
+import { UseRef } from "./Components/Hooks/useRef Hook/UseRef";
 function App() {
   return (
     <>
@@ -84,7 +85,11 @@ function App() {
 
       {/* <UserProvider /> */}
 
-      <PrevValueTracker />
+      {/* USeRef Wale hai Yaha */}
+
+      {/* <PrevValueTracker /> */}
+
+      <UseRef />
 
 
 
