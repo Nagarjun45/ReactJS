@@ -23,6 +23,7 @@ import { UserProvider } from "./Components/Hooks/ContextAPI/Example/UserContext"
 import { Header } from "./Components/Hooks/ContextAPI/Example/Header";
 import { PrevValueTracker } from "./Components/Hooks/useRef Hook/FocusInput";
 import { UseRef } from "./Components/Hooks/useRef Hook/UseRef";
+import { ReducerComp, Sounter } from "./Components/Hooks/useReducer Hook/ReducerComp";
 function App() {
   return (
     <>
@@ -89,7 +90,13 @@ function App() {
 
       {/* <PrevValueTracker /> */}
 
-      <UseRef />
+      {/* <UseRef /> */}
+
+      {/* Reducer wala Part Yaha  */}
+
+      {/* <ReducerComp /> */}
+
+      <Sounter />
 
 
 
